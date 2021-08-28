@@ -1,0 +1,10 @@
+github.com/dullgiulio/jsoncomments v0.0.0-20151117182131-31ff9635d00b h1:B1xY4f5/pqsOgXsTC9uc/xx3ejWSyaG00saJNtByGIY=
+github.com/dullgiulio/jsoncomments v0.0.0-20151117182131-31ff9635d00b/go.mod h1:myab2nv0jcLg40fWQk12iW4SKuokivi1x3296wHrKbU=
+github.com/go-sql-driver/mysql v1.6.0 h1:BCTh4TKNUYmOmMUcQ3IipzF5prigylS7XXjEkfCHuOE=
+github.com/go-sql-driver/mysql v1.6.0/go.mod h1:DCzpHaOWr8IXmIStZouvnhqoel9Qv2LBy8hT2VhHyBg=
+github.com/hwheinzen/stringl10n v1.2.1 h1:2ezbWXz8VYJE36/5vIpOr/2aE+hWS1QBSN1RZHiWaHs=
+github.com/hwheinzen/stringl10n v1.2.1/go.mod h1:F2Wr+IMQWfSA1dfSFtt2iQkH3YG+8u4AEKTCMY/rByc=
+github.com/lib/pq v1.10.2 h1:AqzbZs4ZoCBp+GtejcpCpcxM3zlSMx29dXbUSeVtJb8=
+github.com/lib/pq v1.10.2/go.mod h1:AlVN5x4E4T544tWzH6hKfbfQvm3HdbOxrmggDNAPY9o=
+rsc.io/sqlite v1.0.0 h1:zUGL/JDeFfblrma2rToXG+fUsGZe+CShUHI3KlUNwQc=
+rsc.io/sqlite v1.0.0/go.mod h1:bRoHdqsJCgrcQDvBeCS454l4kLoFAQKHdwfwpoweIOo=
