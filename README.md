@@ -1,8 +1,6 @@
 # livedb
 a software layer for the handling of historic data in relational database tables
 
-*** WORK IN PROGRESS ***
-
 Livedb is two things:
 
 - a library `livedb` (a Go package) with a flexible yet rather complicated API, providing methods for the handling of all kinds of historic data, and
@@ -21,15 +19,19 @@ Livedb offers a way of dealing with all that:
 - Important for bookkeeping: Livedb does not allow changes of the past!
 
 
-### Install
-Provided that your Go environment is ready, just do:
+### Usage
+Use `"github.com/hwheinzen/livedb"` in your project's import statements.
 
-`$ go get github.com/hwheinzen/livedb/...`
+To get the `generatelivetab` code generator do:
+
+`$ go install github.com/hwheinzen/livedb/cmd/generatelivetab@latest`
+
+(But maybe you like to have all sources at hand: clone the repository then.)
 
 
 ### Workflow
-1. Write a JSON description for each table
-2. Run `generatelivetab` for each table (possibly via `go generate`)
-3. Use generated functions in your project (e.g. for services of a data server)
-4. Import `livedb`
-5. Use `livedb` functions like Open/Close/Begin in your project
+1. Write a JSON description for each table in your project directory.
+2. Run `generatelivetab` for each table (possibly via `go generate`).
+3. Use generated functions in your project (e.g. `emptyXx startXx changeXx terminateXx` for the services of a data server).
+4. Import `github.com/hwheinzen/livedb`.
+5. Use `livedb` functions like Open/Close/Begin/Commit in your project
